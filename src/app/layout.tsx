@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Criado com a Lasy",
-  description: "Projeto criado com Lasy AI",
+  title: "OneWay Mudanças - Sua mudança em boas mãos",
+  description: "Empresa especializada em mudanças residenciais e comerciais. Profissionalismo, segurança e confiança.",
 };
 
 export default function RootLayout({
