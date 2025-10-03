@@ -15,7 +15,8 @@ import {
   CheckCircle,
   Users,
   Shield,
-  Clock
+  Clock,
+  Wrench
 } from 'lucide-react'
 
 interface FormData {
@@ -110,12 +111,12 @@ Detalhes da Mudança: ${formData.details}
       <header className="bg-gray-900 text-white shadow-lg fixed w-full top-0 z-50">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            {/* Logo no canto superior esquerdo */}
+            {/* Logo no canto superior esquerdo - MUITO AUMENTADA */}
             <div className="flex items-center">
               <img 
-                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/91c2e7ab-0a8e-49f6-ac60-931e69801f36.png" 
+                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/424e2326-097a-47c9-a1fc-54292d3c32e9.png" 
                 alt="OneWay Mudanças" 
-                className="h-16 w-auto"
+                className="h-32 w-auto md:h-24"
               />
             </div>
 
@@ -179,10 +180,10 @@ Detalhes da Mudança: ${formData.details}
         </div>
       </header>
 
-      {/* Hero Section com Banner Fixo */}
-      <section id="home" className="pt-20 relative min-h-screen flex flex-col">
-        {/* Banner Fixo */}
-        <div className="relative flex-1 overflow-hidden">
+      {/* Hero Section com Banner Fixo - OCULTO NO MOBILE */}
+      <section id="home" className="pt-32 md:pt-20 relative min-h-screen flex flex-col">
+        {/* Banner Fixo - OCULTO NO MOBILE */}
+        <div className="relative flex-1 overflow-hidden hidden md:block">
           <img 
             src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/cbbc679a-82ff-46cd-8596-487c79ed87b3.png" 
             alt="Banner Principal - OneWay Mudanças"
@@ -190,9 +191,17 @@ Detalhes da Mudança: ${formData.details}
           />
         </div>
 
-        {/* Botões abaixo do banner */}
-        <div className="bg-white py-8">
+        {/* Botões abaixo do banner - AJUSTADOS PARA MOBILE */}
+        <div className="bg-white py-8 md:py-8">
           <div className="container mx-auto px-4">
+            {/* Título e descrição para mobile (quando não há banner) */}
+            <div className="text-center mb-8 md:hidden">
+              <h1 className="text-3xl font-bold text-gray-900 mb-4">OneWay Mudanças</h1>
+              <p className="text-lg text-gray-600 mb-6">
+                Sua mudança em boas mãos. Profissionalismo, segurança e confiança.
+              </p>
+            </div>
+            
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => scrollToSection('quote')}
@@ -344,6 +353,31 @@ Detalhes da Mudança: ${formData.details}
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="text-green-500 mr-2" size={16} />
                   Máxima segurança
+                </li>
+              </ul>
+            </div>
+
+            {/* Montagem e Desmontagem */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all hover:scale-105">
+              <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Wrench className="text-blue-600" size={32} />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Montagem e Desmontagem</h3>
+              <p className="text-gray-600 mb-6">
+                Serviço especializado de montagem e desmontagem de móveis e equipamentos.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-center text-gray-700">
+                  <CheckCircle className="text-green-500 mr-2" size={16} />
+                  Técnicos especializados
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <CheckCircle className="text-green-500 mr-2" size={16} />
+                  Ferramentas profissionais
+                </li>
+                <li className="flex items-center text-gray-700">
+                  <CheckCircle className="text-green-500 mr-2" size={16} />
+                  Cuidado com os móveis
                 </li>
               </ul>
             </div>
@@ -576,6 +610,7 @@ Detalhes da Mudança: ${formData.details}
                     <option value="Residencial">Residencial</option>
                     <option value="Comercial">Comercial</option>
                     <option value="Self Storage">Self Storage</option>
+                    <option value="Montagem e Desmontagem">Montagem e Desmontagem</option>
                     <option value="Outros">Outros</option>
                   </select>
                 </div>
@@ -647,7 +682,7 @@ Detalhes da Mudança: ${formData.details}
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <img 
-                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/91c2e7ab-0a8e-49f6-ac60-931e69801f36.png" 
+                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/424e2326-097a-47c9-a1fc-54292d3c32e9.png" 
                 alt="OneWay Mudanças" 
                 className="h-16 w-auto mb-4"
               />
@@ -664,6 +699,7 @@ Detalhes da Mudança: ${formData.details}
                 <li>Self Storage</li>
                 <li>Embalagem</li>
                 <li>Elevador Exterior</li>
+                <li>Montagem e Desmontagem</li>
               </ul>
             </div>
 
