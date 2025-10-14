@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Criado com a Lasy",
+  title: "One Way Transportes e Mudanças",
   description: "Projeto criado com Lasy AI",
 };
 
