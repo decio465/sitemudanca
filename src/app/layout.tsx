@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "One Way Transportes e Mudanças",
-  description: "Projeto criado com Lasy AI",
+  title: "One Way Mudanças",
+  description: "One Way – Mudanças seguras, trajetos tranquilos.",
 };
 
 export default function RootLayout({
