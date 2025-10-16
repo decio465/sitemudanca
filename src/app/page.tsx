@@ -106,6 +106,20 @@ Detalhes da Mudança: ${formData.details}
   }
 
   return (
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17621517270">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17621517270');
+</script>
+    
+    
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="bg-gray-900 text-white shadow-lg fixed w-full top-0 z-50">
