@@ -29,18 +29,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <Script src="/lasy-bridge.js" strategy="beforeInteractive" />
-
-        
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JNZFJR96HZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JNZFJR96HZ');
-</script>
-        
+        <Script src="/lasy-bridge.js" strategy="beforeInteractive" /> 
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
