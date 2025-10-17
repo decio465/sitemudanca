@@ -108,19 +108,6 @@ Detalhes da Mudança: ${formData.details}
     
     <div className="min-h-screen bg-white">
       {/* Header */}
-      
-      <head>
-      
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JNZFJR96HZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JNZFJR96HZ');
-</script>      
-      </head>
-        
       <header className="bg-gray-900 text-white shadow-lg fixed w-full top-0 z-50">
         <div className="container mx-auto px-4 py-1 md:py-2">
           <div className="flex items-center justify-between">
