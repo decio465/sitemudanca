@@ -1,5 +1,4 @@
 'use client'
-import Script from 'next/script';
 import { useState, useEffect } from 'react'
 import { 
   Home, 
