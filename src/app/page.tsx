@@ -680,7 +680,7 @@ Detalhes da Mudança: ${formData.details}
                 Sua mudança em boas mãos. Profissionalismo, segurança e confiança.
               </p>
             </div>
-            <br></br>
+            <br>
             <div>
               <a target="_blank" href="https://www.zaask.pt/user/onewaymudancas"><img src="https://www.zaask.pt/widget?user=999354&widget=pro-findme" alt="" /></a>
             </div>
