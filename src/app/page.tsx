@@ -676,7 +676,7 @@ Detalhes da Mudança: ${formData.details}
                 alt="OneWay Mudanças" 
                 className="h-12 md:h-16 w-auto mb-3 md:mb-4"
               />
-              <a target="_blank" href="https://www.zaask.pt/user/onewaymudancas"><img src="https://www.zaask.pt/undefined" alt="" /></a>
+              <a target="_blank" href="https://www.zaask.pt/user/onewaymudancas"><img src="https://www.zaask.pt/widget?user=999354&widget=pro-findme" alt="" /></a>
               <p className="text-gray-400 text-sm md:text-base">
                 Sua mudança em boas mãos. Profissionalismo, segurança e confiança.
               </p>
