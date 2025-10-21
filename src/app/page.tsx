@@ -678,7 +678,7 @@ Detalhes da Mudança: ${formData.details}
               />
               <h1 className="text-gray-400 text-sm md:text-base">
                 Sua mudança em boas mãos. Profissionalismo, segurança e confiança.
-              </h1>
+              </h1><br>
               <a target="_blank" href="https://www.zaask.pt/user/onewaymudancas"><img src="https://www.zaask.pt/widget?user=999354&widget=pro-findme" alt="" /></a>
             </div>
         
